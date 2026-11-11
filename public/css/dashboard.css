@@ -1,0 +1,18 @@
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+.album-img-container{
+    position: relative;
+}
+.album-edit{
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    border: 1px solid red;
+    padding: 5px 7px;
+    border-radius: 25px;
+    color: white !important;
+    background: red;
+}
+
+
