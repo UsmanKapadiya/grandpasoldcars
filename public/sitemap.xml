@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+<url>
+  <loc>https://clfcca.ca</loc>
+  <priority>1</priority>
+  <changefreq>monthly</changefreq>
+  <lastmod>2022-04-12</lastmod>
+</url>
+<url>
+  <loc>https://clfcca.ca/Home</loc>
+  <priority>1</priority>
+  <changefreq>monthly</changefreq>
+  <lastmod>2022-04-12</lastmod>
+</url>
+<url>
+  <loc>https://clfcca.ca/About</loc>
+  <priority>0.8</priority>
+  <changefreq>monthly</changefreq>
+  <lastmod>2022-04-12</lastmod>
+</url>
+<url>
+  <loc>https://clfcca.ca/GetInvolved</loc>
+  <priority>0.8</priority>
+  <changefreq>monthly</changefreq>
+  <lastmod>2022-04-12</lastmod>
+</url>
+<url>
+  <loc>https://clfcca.ca/Contact</loc>
+  <priority>1</priority>
+  <changefreq>monthly</changefreq>
+  <lastmod>2022-04-12</lastmod>
+</url>
+</urlset>

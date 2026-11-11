@@ -1,0 +1,330 @@
+/*-----Navbar--------*/
+.navbar-nav{
+    font-weight: 900;
+    color: #000000;
+}
+
+.navbar-nav>li.nav-item.active>a.nav-link{
+    text-decoration:none;
+    background:#38c172;
+    color:#fff;
+    position: relative;
+    z-index:1;
+}
+
+.navbar-nav>li.nav-item.active>a.nav-link:before {
+    content:"";
+    background:#38c172;
+    color:#fff;
+    position: absolute;
+    height: 55px;
+    width: 100%;
+    left: 0px;
+    z-index: -1;
+}
+
+
+
+/*------Home Page------------*/
+.home-banner {
+    /*background-image: url('../images/home/banner_home.jpg');*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+    border-top: 5px solid #38c172;
+}
+.banner-title{
+    font-weight: 900;
+    text-shadow: 1px 1px 1px #b9b9b9;
+}
+.section-border{
+    position: relative;
+}
+.section-border:after {
+    background: linear-gradient(to right, orange 25%,#38c172 25%, #38c172 50%, #3490dc 50%, #3490dc 75%, #f7009f 75%);
+    position: absolute;
+    content: '';
+    height: 4px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.home-banner .home-banner-container{
+    padding: 10rem;
+}
+.home-banner h1{
+    color:white;
+    text-shadow: 2px 2px 4px #000
+}
+.intro-section{
+    background-image: url('../images/banner/ccca_home_welcome.png');
+    background-size: contain;
+    background-position: center right;
+    background-repeat: no-repeat;
+}
+.section-pad{
+    padding: 5rem 0;
+}
+.intro-section h2{
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+.text-blue{
+    color: #3490dc;
+}
+/*.intro-section h2 span{*/
+/*    text-transform: uppercase;*/
+/*}*/
+.intro-head {
+    font-weight: 900;
+}
+.intro-body{
+    font-weight: 200;
+}
+.home-latest-news{
+    background-image: url('../images/banner/ccca_home_news.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h3.news-head{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    padding: 3rem;
+    margin-bottom: 0;
+}
+.homenews-container {
+    padding: 2rem;
+    background: white;
+}
+.homenews-heading {
+    min-height: 7rem;
+}
+.homenews-title{
+    color: #3490dc;
+    font-weight: 900;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+.homenews-body{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+.copyright {
+    text-transform: uppercase;
+    font-size: .6rem;
+}
+.footer-list{
+    display: none;
+    float: right;
+    margin-bottom: 0;
+    padding: 0;
+    background: none;
+}
+
+/*------ About us Page------------*/
+.about-banner {
+    background-image: url('../images/banner/ccca_banner_aboutus.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: 5px solid #38c172;
+}
+.banner-container {
+    padding: 300px 0px 100px;
+}
+.banner-container h1{
+    display: none;
+    text-shadow: 2px 2px 3px white;
+}
+/*------ Get Involved Page------------*/
+
+.getinvolved-banner{
+    background-image: url('../images/banner/ccca_banner_get_involved.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: 5px solid #38c172;
+}
+
+/*------ Contact Page------------*/
+
+.contact-banner{
+    background-image: url('../images/banner/ccca_banner_contactus.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: 5px solid #38c172;
+}
+
+
+
+
+/*------------News--------------*/
+.news-banner{
+    background-image: url('../images/banner/ccca_banner_whatsnews.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: 5px solid #38c172;
+}
+.news-image{
+    max-height: 400px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.news-heading{
+    margin-bottom: 1rem;
+}
+.news-title h3{
+    font-weight: bold;
+}
+.news-body{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+.read_more{
+    color:#38c172;
+}
+.read_more:hover{
+    color:#38c172;
+}
+
+
+
+/*------------Gallery--------------*/
+.gallery-banner{
+    background-image: url('../images/banner/ccca_banner_gallery.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: 5px solid #38c172;
+}
+
+.gallery-section .title {
+    color: #1a1a1a;
+    text-align: center;
+    margin-bottom: 10px
+}
+
+.gallery-section .content {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden
+}
+
+.gallery-section .content .content-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s
+}
+
+.gallery-section .content:hover .content-overlay {
+    opacity: 1
+}
+
+.gallery-section .content-image {
+    width: 100%
+}
+
+.gallery-section img {
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px
+}
+
+.gallery-section .content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s
+}
+
+.gallery-section .content:hover .content-details {
+    top: 50%;
+    left: 50%;
+    opacity: 1
+}
+
+.gallery-section .content-details h3 {
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase
+}
+
+.gallery-section .content-details p {
+    color: #fff;
+    font-size: 0.8em
+}
+
+.gallery-section .fadeIn-bottom {
+    top: 80%
+}
+.content-title{
+    color:white;
+}
+
+
+/*------------Sidebar--------------*/
+.sidebar-title {
+    border-bottom: 2px solid #3490dc;
+    text-transform: uppercase;
+    font-weight: 900;
+    position: relative;
+    padding-bottom: .5rem;
+}
+.sidebar-title:before{
+    content: "";
+    background: #3490dc;
+    position: absolute;
+    height: 4px;
+    width: 65%;
+    left: 0px;
+    bottom: 0;
+}
+.sidebar-list{
+    list-style: none;
+    padding-left: 0;
+}
+.sidebar-list li{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 3;
+    border-bottom: 1px solid #999;
+}
+
+h1.page-head {
+    color: #3490dc;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+
